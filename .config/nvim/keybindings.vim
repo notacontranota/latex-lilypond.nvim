@@ -6,14 +6,11 @@ let maplocalleader = " "
 
 vnoremap <C-c> "+y
 
-xnoremap <leader>c xi\emph{}<esc>P
-xnoremap <leader>n xi\textbf{}<esc>P
-xnoremap <leader>s xi\textsc{}<esc>P
-
 let g:surround_105 = "\\emph{\r}"
 let g:surround_110 = "\\textbf{\r}"
 let g:surround_99 = "\\textsc{\r}"
 
+map <F12> :VimtexDocPackage<CR>
 map <F9> :VimtexCountWords<CR>
 map <F10> :VimtexTocToggle<CR>
 
