@@ -18,19 +18,19 @@ filetype plugin indent on
 filetype plugin on
 
 " Plugins
-so /home/notacontranota/.config/nvim/plugins.vim
+so ~/.config/nvim/plugins.vim
 
 " Keybindings
-so /home/notacontranota/.config/nvim/keybindings.vim
+so ~/.config/nvim/keybindings.vim
 
 " coc-vim settings
-so /home/notacontranota/.config/nvim/coc-vim.vim
+so ~/.config/nvim/coc-vim.vim
 
 " coc-snippets settings
-so /home/notacontranota/.config/nvim/coc-snippets.vim
+so ~/.config/nvim/coc-snippets.vim
 
 
-let g:coc_node_path = '/home/notacontranota/.local/bin/node'
+let g:coc_node_path = '~/.local/bin/node'
 let g:coc_filetype_map = {'tex': 'latex'}
 
 let g:vimtex_view_method = 'zathura'
