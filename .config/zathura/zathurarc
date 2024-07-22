@@ -1,0 +1,9 @@
+set synctex true
+# set synctex-editor-command "nvr --remote-silent +%{line} %{input}"
+# set synctex-editor-command "nvr --remote-silent +:'dr %f | call cursor(%l,%c+1)"
+# set synctex-editor-command "lilypond-invoke-editor %s"
+set recolor true
+set recolor-lightcolor "#222222"
+set default-bg "#222230"
+set font 'UbuntuMono Nerd Font Mono 32'
+set guioptions ''
