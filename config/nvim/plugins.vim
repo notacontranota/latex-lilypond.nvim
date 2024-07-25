@@ -20,6 +20,7 @@ Plug 'epwalsh/obsidian.nvim'
 Plug 'shaunsingh/nord.nvim'
 Plug 'aymericbeaumet/vim-symlink'
 Plug 'moll/vim-bbye'
+Plug 'Townk/vim-autoclose'
 
 call plug#end()
 
