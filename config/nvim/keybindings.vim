@@ -36,6 +36,16 @@ nnoremap * *zzzv
 nnoremap [s [szzzv
 nnoremap ]s ]szzzv
 
+" AUTOCLOSE () [] {} ¡! ¿?
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap ¿ ¿?<left>
+inoremap ¡ ¡!<left>
+
 " NERDTree
 map <F7> :NERDTreeToggle<CR>
 map <F8> :OpenBookmark 
